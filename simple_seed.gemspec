@@ -8,9 +8,9 @@ Gem::Specification.new do |spec|
   spec.version       = SimpleSeed::VERSION
   spec.authors       = ["Masaki Komagata"]
   spec.email         = ["komagata@gmail.com"]
-  spec.summary       = %q{TODO: Write a short summary. Required.}
-  spec.description   = %q{TODO: Write a longer description. Optional.}
-  spec.homepage      = ""
+  spec.summary       = %q{Simple Seed Loader from fixture.}
+  spec.description   = %q{Simple Seed Loader from fixuure.}
+  spec.homepage      = "https://github.com/komagata/simple_seed"
   spec.license       = "MIT"
 
   spec.files         = `git ls-files -z`.split("\x0")
