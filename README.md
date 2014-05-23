@@ -1,6 +1,6 @@
 # SimpleSeed
 
-TODO: Write a gem description
+Feed a seed from fixtures.
 
 ## Installation
 
@@ -18,7 +18,18 @@ Or install it yourself as:
 
 ## Usage
 
-TODO: Write usage instructions here
+    $ mkdir db/fixtures
+    $ vi db/fixtures/users.yml
+    user_1:
+      name: Jean Valjean
+    user_2:
+      name: Bishop Myriel
+    user_3:
+      name: Cosette
+    $ vi db/seeds.rb
+    import_fixture :users
+    $ rake db:seed
+    Import users...
 
 ## Contributing
 
