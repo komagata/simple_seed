@@ -20,11 +20,11 @@ Or install it yourself as:
 
     $ mkdir db/fixtures
     $ vi db/fixtures/users.yml
-    user_1:
+    jean:
       name: Jean Valjean
-    user_2:
+    myriel:
       name: Bishop Myriel
-    user_3:
+    cosette:
       name: Cosette
     $ vi db/seeds.rb
     import_fixture :users
